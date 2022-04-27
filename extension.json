@@ -6,7 +6,7 @@
 		"Qiuwen Baike Contributors",
 	],
 	"license-name": "GPL-2.0-or-later",
-	"url": "https://www.mediawiki.org/wiki/Extension:NewSignupPage",
+	"url": "https://git.qiuwen.wiki/qiuwen/NewSignupPage",
 	"descriptionmsg": "newsignuppage-desc",
 	"type": "other",
 	"requires": {
