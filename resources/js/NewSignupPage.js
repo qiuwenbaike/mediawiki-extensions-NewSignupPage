@@ -8,7 +8,7 @@
  */
 // Mandatory check
 (function () {
-	var a = document.getElementById("wpLoginAttempt") || document.getElementById("wpCreateaccount");
+	var a = document.getElementById("wpLoginAttempt") && !document.getElementById("wpOATHToken") || document.getElementById("wpCreateaccount");
 	a && (a.disabled = !0, document.getElementById("mw-input-wpTermsOfService").addEventListener("change", function () {
 		a.disabled = !0 === document.getElementById("mw-input-wpTermsOfService").checked ? !1 : !0;
 	}));
