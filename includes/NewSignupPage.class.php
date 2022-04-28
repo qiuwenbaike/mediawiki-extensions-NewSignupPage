@@ -6,6 +6,7 @@
  * @ingroup Extensions
  * @author Jack Phoenix
  * @copyright Copyright © 2008-2020 Jack Phoenix
+ * @copyright Copyright © 2022-     Qiuwen Baike Contributors
  * @license GPL-2.0-or-later
  */
 class NewSignupPage {

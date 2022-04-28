@@ -4,7 +4,7 @@
  * especially on mobile devices.
  *
  * @file
- * @author by Qiuwen Contributors
+ * @copyright Copyright © 2022- Qiuwen Baike Contributors
  */
 // Mandatory check
 (function () {
