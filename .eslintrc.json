@@ -1,9 +1,6 @@
 {
 	"root": true,
-	"plugins": [
-		"es5",
-		"compat"
-	],
+	"plugins": ["es5", "compat"],
 	"parser": "@babel/eslint-parser",
 	"parserOptions": {
 		"requireConfigFile": false,
@@ -13,18 +10,18 @@
 		}
 	},
 	"extends": [
-        "eslint:recommended",
-        "plugin:es5/no-es2015",
+		"eslint:recommended",
+		"plugin:es5/no-es2015",
 		"plugin:compat/recommended",
 		"wikimedia/client-es5",
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
-    "env": {
+	"env": {
 		"browser": true,
 		"jquery": true
 	},
-    "ignorePatterns": [],
+	"ignorePatterns": [],
 	"rules": {
 		"no-console": "error",
 		"no-extra-parens": ["error", "all", { "nestedBinaryExpressions": false }],
@@ -49,8 +46,11 @@
 		"computed-property-spacing": ["error", "never"],
 		"func-call-spacing": ["error", "never"],
 		"indent": ["error", "tab", { "outerIIFEBody": 0, "SwitchCase": 1 }],
-		"key-spacing": ["error", {"singleLine": {"beforeColon": false, "afterColon": true}}],
-		"keyword-spacing": ["error", { "after": true, "before": true}],
+		"key-spacing": [
+			"error",
+			{ "singleLine": { "beforeColon": false, "afterColon": true } }
+		],
+		"keyword-spacing": ["error", { "after": true, "before": true }],
 		"linebreak-style": ["error", "unix"],
 		"no-array-constructor": "error",
 		"no-bitwise": "error",
@@ -67,26 +67,30 @@
 		"space-in-parens": ["error", "never"],
 		"space-infix-ops": "error",
 		"space-unary-ops": "error",
-		"spaced-comment": ["error", "always", { "line": { "exceptions": ["-"] }, "block": { "balanced": true } }],
+		"spaced-comment": [
+			"error",
+			"always",
+			{ "line": { "exceptions": ["-"] }, "block": { "balanced": true } }
+		],
 		"switch-colon-spacing": "error",
 		"mediawiki/class-doc": "off",
 		"no-jquery/no-global-selector": "off",
 		"no-jquery/no-fade": "off",
 		"no-jquery/no-slide": "off",
 		"no-jquery/variable-pattern": "off",
-        "jsdoc/check-tag-names": 0,
+		"jsdoc/check-tag-names": 0,
 		"jsdoc/require-param": 0,
 		"jsdoc/require-param-type": 0,
 		"jsdoc/require-returns": 0,
-        "max-len": "off"
+		"max-len": "off"
 	},
-    "globals": {
+	"globals": {
 		"$": "readonly",
 		"jQuery": "readonly",
-        "mw": "readonly",
-        "mediaWiki": "readonly",
-        "OO": "readonly",
-        "wgULS": "readonly",
-        "wgUVS": "readonly"
-    }
+		"mw": "readonly",
+		"mediaWiki": "readonly",
+		"OO": "readonly",
+		"wgULS": "readonly",
+		"wgUVS": "readonly"
+	}
 }

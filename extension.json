@@ -1,10 +1,7 @@
 {
 	"name": "New Signup Page",
 	"version": "1.4.0",
-	"author": [
-		"Jack Phoenix",
-		"Qiuwen Baike Contributors"
-	],
+	"author": ["Jack Phoenix", "Qiuwen Baike Contributors"],
 	"license-name": "GPL-2.0-or-later",
 	"url": "https://git.qiuwen.wiki/qiuwen/NewSignupPage",
 	"descriptionmsg": "newsignuppage-desc",
@@ -39,9 +36,7 @@
 		}
 	},
 	"MessagesDirs": {
-		"NewSignupPage": [
-			"i18n"
-		]
+		"NewSignupPage": ["i18n"]
 	},
 	"AutoloadClasses": {
 		"NewSignupPage": "includes/NewSignupPage.class.php",
@@ -66,13 +61,9 @@
 	"ResourceModules": {
 		"ext.newsignuppage": {
 			"scripts": "resources/js/NewSignupPage.js",
-			"messages": [
-				"badretype"
-			]
+			"messages": ["badretype"]
 		}
 	},
-	"AvailableRights": [
-		"bypasstoscheck"
-	],
+	"AvailableRights": ["bypasstoscheck"],
 	"manifest_version": 2
 }

@@ -1,12 +1,10 @@
 {
 	"@metadata": {
-		"authors": [
-			"Kly"
-		]
+		"authors": ["Kly"]
 	},
 	"newsignuppage-desc": "添加新功能到[[Special:CreateAccount|註冊表格]]",
 	"newsignuppage-recruited": "招募[$1 $2]",
-	"newsignuppage-loginform-tos": "我已超過 13 歲，已詳細閱讀過、了解、並同意接受[$1 服務條款]與[$2 隱私權政策]",
+	"newsignuppage-loginform-tos": "我已仔细阅读、充分了解并同意遵守本网站的《用户协议》《个人信息保护方针》《共同纲领》。",
 	"newsignuppage-must-accept-tos": "您必須接受網站的服務條款才能夠建立帳號！",
 	"action-bypasstoscheck": "建立新帳號但未明確接受網站的服務條款",
 	"right-bypasstoscheck": "建立新帳號但未明確接受網站的服務條款"
