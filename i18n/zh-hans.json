@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Kly",
+            "WaitSpring"
+        ]
+    },
+    "newsignuppage-desc": "添加新功能到[[Special:CreateAccount|註册表格]]",
+    "newsignuppage-recruited": "招募[$1 $2]",
+    "newsignuppage-loginform-tos": "我已仔细阅读、充分了解并同意遵守本网站的《用户协议》《个人信息保护方针》《共同纲领》。",
+    "newsignuppage-must-accept-tos": "您必须接受网站的服务条款才能够建立帐号！",
+    "action-bypasstoscheck": "建立新帐号但未明确接受网站的服务条款",
+    "right-bypasstoscheck": "建立新帐号但未明确接受网站的服务条款"
+}
