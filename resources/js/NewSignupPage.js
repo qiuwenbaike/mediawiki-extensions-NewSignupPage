@@ -8,20 +8,14 @@
 
 // Mandatory check
 (function () {
-var a = document.getElementById('mw-input-wpTermsOfService') ?
-	document.getElementById('wpLoginAttempt') ||
-	document.getElementById('wpCreateaccount') :
-	false;
+var a = document.getElementById('mw-input-wpTermsOfService') ? document.getElementById('wpLoginAttempt') || document.getElementById('wpCreateaccount') : false;
 if (a) {
 	a.disabled = !0;
 	document.getElementById('mw-input-wpTermsOfService').checked = !1;
 	document
 		.getElementById('mw-input-wpTermsOfService')
 		.addEventListener('change', function () {
-			a.disabled =
-					!0 === document.getElementById('mw-input-wpTermsOfService').checked ?
-						!1 :
-						!0;
+			a.disabled = !0 === document.getElementById('mw-input-wpTermsOfService').checked ? !1 : !0;
 		});
 }
 }());
