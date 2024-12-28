@@ -34,7 +34,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
     {
         $req = AuthenticationRequest::getRequestByClass($reqs, NewSignupPageAuthenticationRequest::class);
         if (
-            $req && $req->wpTermsOfService ||
+            ($req && $req->wpTermsOfService) ||
             $creator->isAllowed('bypasstoscheck')
         ) {
             return StatusValue::newGood();
@@ -140,7 +140,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
             }
 
             // Track registration
-            $dbw = wfGetDB(DB_MASTER);
+            $dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection(DB_PRIMARY);
             $dbw->insert(
                 'user_register_track',
                 [
