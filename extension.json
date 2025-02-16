@@ -10,7 +10,7 @@
     "descriptionmsg": "newsignuppage-desc",
     "type": "other",
     "requires": {
-        "MediaWiki": ">= 1.34.0"
+        "MediaWiki": ">= 1.39.0"
     },
     "config": {
         "RegisterTrack": {
@@ -65,7 +65,8 @@
     },
     "ResourceModules": {
         "ext.newsignuppage": {
-            "scripts": "resources/js/NewSignupPage.js",
+			"es6": true,
+            "packageFiles": [ "resources/js/NewSignupPage.js" ],
             "messages": [
                 "badretype"
             ]
