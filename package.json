@@ -4,7 +4,9 @@
     "scripts": {
         "test": "grunt test",
         "eslint": "eslint resources/**/*.js",
-        "eslint:fix": "eslint resources/**/*.js --fix"
+        "eslint:fix": "eslint resources/**/*.js --fix",
+		"stylelint": "stylelint resources/**/*.less --custom-syntax postcss-less",
+		"stylelint:fix": "stylelint resources/**/*.less --fix --custom-syntax postcss-less"
     },
 	"devDependencies": {
 		"eslint-config-wikimedia": "^0.30.0",
