@@ -29,6 +29,7 @@ class NewSignupPage
         // Warning: Userlogin should be all lowercased!
         if ($title->isSpecial('CreateAccount') || $title->isSpecial('Userlogin')) {
             $out->addModules(['ext.newsignuppage']);
+		    $out->addModuleStyles(['ext.newsignuppage.styles']);
         }
     }
 

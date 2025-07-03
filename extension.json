@@ -66,10 +66,17 @@
     "ResourceModules": {
         "ext.newsignuppage": {
 			"es6": true,
-            "packageFiles": [ "resources/js/NewSignupPage.js" ],
+            "packageFiles": [
+                "resources/js/NewSignupPage.js"
+            ],
             "messages": [
                 "badretype"
             ]
+        },
+        "ext.newsignuppage.styles": {
+			"styles": [
+				"resources/styles/NewSignupPage.less"
+			]
         }
     },
     "AvailableRights": [
