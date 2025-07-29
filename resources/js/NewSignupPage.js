@@ -6,25 +6,26 @@
  * @license GPL-2.0-or-later
  */
 
+/* global document */
 'use strict';
 
 // Mandatory check
-(() => {
-	const wpTermsOfService = document.querySelector('#mw-input-wpTermsOfService');
-	if (!wpTermsOfService) {
+( () => {
+	const wpTermsOfService = document.querySelector( '#mw-input-wpTermsOfService' );
+	if ( !wpTermsOfService ) {
 		return;
 	}
 
-	const wpLoginAttempt = document.querySelector('#wpLoginAttempt');
-	const wpCreateaccount = document.querySelector('#wpCreateaccount');
+	const wpLoginAttempt = document.querySelector( '#wpLoginAttempt' );
+	const wpCreateaccount = document.querySelector( '#wpCreateaccount' );
 	const wpSubmitButton = wpLoginAttempt || wpCreateaccount;
-	if (!wpSubmitButton) {
+	if ( !wpSubmitButton ) {
 		return;
 	}
 
 	wpSubmitButton.disabled = true;
 	wpTermsOfService.checked = false;
-	wpTermsOfService.addEventListener('change', () => {
+	wpTermsOfService.addEventListener( 'change', () => {
 		wpSubmitButton.disabled = !wpTermsOfService.checked;
-	});
-})();
+	} );
+} )();
