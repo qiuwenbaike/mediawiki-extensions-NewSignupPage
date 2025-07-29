@@ -6,7 +6,11 @@
         "eslint": "eslint resources/**/*.js",
         "eslint:fix": "eslint resources/**/*.js --fix",
 		"stylelint": "stylelint resources/**/*.less --custom-syntax postcss-less",
-		"stylelint:fix": "stylelint resources/**/*.less --fix --custom-syntax postcss-less"
+		"stylelint:fix": "stylelint resources/**/*.less --fix --custom-syntax postcss-less",
+        "lint:js": "eslint resources/**/*.js",
+        "lint:fix:js": "eslint resources/**/*.js --fix",
+		"lint:styles": "stylelint resources/**/*.less --custom-syntax postcss-less",
+		"lint:fix:styles": "stylelint resources/**/*.less --fix --custom-syntax postcss-less"
     },
 	"devDependencies": {
 		"eslint-config-wikimedia": "^0.31.0",
