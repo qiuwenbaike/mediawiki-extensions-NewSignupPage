@@ -6,10 +6,7 @@
  * @license GPL-2.0-or-later
  */
 
-/* global document */
-'use strict';
-
-// Mandatory check
+// Mandatory check for agreeing to Terms of Service
 ( () => {
 	const wpTermsOfService = document.querySelector( '#mw-input-wpTermsOfService' );
 	if ( !wpTermsOfService ) {
