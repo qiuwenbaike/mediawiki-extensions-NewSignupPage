@@ -14,9 +14,12 @@ module.exports = function ( grunt ) {
 			},
 			all: [ '**/*.{js,json}', '!node_modules/**', '!vendor/**' ]
 		},
+		stylelint: {
+			all: [ '**/*.{css,less}', '!node_modules/**', '!vendor/**' ]
+		},
 		banana: conf.MessagesDirs
 	} );
 
-	grunt.registerTask( 'test', [ 'eslint', 'banana' ] );
+	grunt.registerTask( 'test', [ 'eslint', 'banana', 'stylelint' ] );
 	grunt.registerTask( 'default', 'test' );
 };
