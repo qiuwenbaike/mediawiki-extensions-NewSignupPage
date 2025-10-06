@@ -8,6 +8,7 @@
 		"eslint:fix": "eslint resources/**/*.js --fix",
 		"stylelint": "stylelint resources/**/*.less --custom-syntax postcss-less",
 		"stylelint:fix": "stylelint resources/**/*.less --fix --custom-syntax postcss-less",
+		"lint": "pnpm run lint:js && pnpm run lint:styles",
 		"lint:js": "eslint resources/**/*.js",
 		"lint:fix:js": "eslint resources/**/*.js --fix",
 		"lint:styles": "stylelint resources/**/*.less --custom-syntax postcss-less",
