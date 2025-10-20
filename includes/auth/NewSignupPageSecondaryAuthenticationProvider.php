@@ -16,9 +16,7 @@ class NewSignupPageSecondaryAuthenticationProvider extends AbstractSecondaryAuth
     /**
      * @param array $params
      */
-    public function __construct($params = [])
-    {
-    }
+    public function __construct($params = []) {}
 
     /**
      * Abort the creation of the new account if the user hasn't checked the
