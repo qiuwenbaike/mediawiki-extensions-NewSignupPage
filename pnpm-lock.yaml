@@ -51,8 +51,8 @@ importers:
         specifier: ^7.0.0
         version: 7.0.0(stylelint@16.25.0(typescript@5.8.3))
       stylelint-plugin-use-baseline:
-        specifier: ^1.0.3
-        version: 1.0.3(stylelint@16.25.0(typescript@5.8.3))
+        specifier: ^1.1.1
+        version: 1.1.1(stylelint@16.25.0(typescript@5.8.3))
 
 packages:
 
@@ -143,10 +143,6 @@ packages:
   '@eslint/js@8.57.1':
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
-
-  '@eslint/js@9.38.0':
-    resolution: {integrity: sha512-UZ1VpFvXf9J06YG9xQBdnzU+kthors6KjhMAl6f4gH4usHyh31rUf2DLGInT8RFYIReYXNSydgPY0V2LuWgl7A==}
-    engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
   '@eslint/js@9.39.1':
     resolution: {integrity: sha512-S26Stp4zCy88tH94QbBv3XCuzRQiZ9yXofEILmglYTh/Ug/a9/umqvgFtYBAo3Lp0nsI/5/qH1CCrbdK3AP1Tw==}
@@ -1685,8 +1681,8 @@ packages:
     peerDependencies:
       stylelint: ^16.18.0
 
-  stylelint-plugin-use-baseline@1.0.3:
-    resolution: {integrity: sha512-5GzmvrUPFjJzSW+mcKo0PWqmF9SOYGiSdYslrb04r1UApgWwwfjJhI00K/2cQ3vldJsO2TQS7wn2/sx6RNUcmg==}
+  stylelint-plugin-use-baseline@1.1.1:
+    resolution: {integrity: sha512-vlheyjEOBVSbM2pxbwFPDuGC6bOAps+iAgIpLgZeGZ+QDHAMp9G3N9k6LhynIXu6+5wKNN9fz72DtbShYRblgQ==}
     peerDependencies:
       stylelint: ^16.0.2
 
@@ -1965,8 +1961,6 @@ snapshots:
       - supports-color
 
   '@eslint/js@8.57.1': {}
-
-  '@eslint/js@9.38.0': {}
 
   '@eslint/js@9.39.1': {}
 
@@ -3625,7 +3619,7 @@ snapshots:
       postcss-sorting: 9.1.0(postcss@8.5.6)
       stylelint: 16.25.0(typescript@5.8.3)
 
-  stylelint-plugin-use-baseline@1.0.3(stylelint@16.25.0(typescript@5.8.3)):
+  stylelint-plugin-use-baseline@1.1.1(stylelint@16.25.0(typescript@5.8.3)):
     dependencies:
       css-tree: 3.1.0
       is-plain-object: 5.0.0
