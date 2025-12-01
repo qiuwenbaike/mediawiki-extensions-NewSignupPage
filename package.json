@@ -12,7 +12,7 @@
 	},
 	"devDependencies": {
 		"@eslint/compat": "^1.4.1",
-		"@eslint/eslintrc": "^3.3.1",
+		"@eslint/eslintrc": "^3.3.3",
 		"@eslint/js": "^9.39.1",
 		"eslint": "^9.39.1",
 		"eslint-config-wikimedia": "^0.32.2",
