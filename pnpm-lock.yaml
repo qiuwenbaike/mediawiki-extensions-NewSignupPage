@@ -43,7 +43,7 @@ importers:
         version: 0.21.0(stylelint@17.14.1(typescript@5.8.3))
       postcss-less:
         specifier: ^6.0.0
-        version: 6.0.0(postcss@8.5.21)
+        version: 6.0.0(postcss@8.5.23)
       stylelint:
         specifier: ^17.14.1
         version: 17.14.1(typescript@5.8.3)
@@ -52,13 +52,13 @@ importers:
         version: 7.7.0(stylelint-order@8.1.1(stylelint@17.14.1(typescript@5.8.3)))(stylelint@17.14.1(typescript@5.8.3))
       stylelint-config-wikimedia:
         specifier: ^0.19.3
-        version: 0.19.3(postcss-less@6.0.0(postcss@8.5.21))(typescript@5.8.3)
+        version: 0.19.3(postcss-less@6.0.0(postcss@8.5.23))(typescript@5.8.3)
       stylelint-order:
         specifier: ^8.1.1
         version: 8.1.1(stylelint@17.14.1(typescript@5.8.3))
       stylelint-plugin-use-baseline:
-        specifier: ^1.4.4
-        version: 1.4.4(stylelint@17.14.1(typescript@5.8.3))
+        specifier: ^1.4.5
+        version: 1.4.5(stylelint@17.14.1(typescript@5.8.3))
 
 packages:
 
@@ -1615,6 +1615,10 @@ packages:
     resolution: {integrity: sha512-v4sDNP3fdNiWMfabO7OwOQdOX8TiQSztKyT1Wj0w+j7LDallJThJRBBBmzVGyYj0crMh7jlV4zepPkiNu9UwDQ==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.23:
+    resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
+    engines: {node: ^10 || ^12 || >=14}
+
   prelude-ls@1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -1861,8 +1865,8 @@ packages:
     peerDependencies:
       stylelint: ^16.18.0 || ^17.0.0
 
-  stylelint-plugin-use-baseline@1.4.4:
-    resolution: {integrity: sha512-AHLlNRmnP+8FQZ7OqwWyzVapnAUAPTLhWVdR9+0lfVf9ahuxbsoGn2Oi+BURpcbNvAXRIu9V/8aC4F9j56PnFA==}
+  stylelint-plugin-use-baseline@1.4.5:
+    resolution: {integrity: sha512-/AHhNgy3VQKx8bEc3ZeTc2tVOqU3Gdyr+55ZzUHrTtY0L/uGw9gyeIDWUQWpQiY4EwpAlQ009bSvQDt8cdqvmw==}
     peerDependencies:
       stylelint: ^16.0.2 || ^17.0.0
 
@@ -2239,7 +2243,7 @@ snapshots:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
       '@csstools/media-query-list-parser': 5.0.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
-      postcss: 8.5.21
+      postcss: 8.5.23
       postcss-selector-parser: 7.1.4
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
@@ -2250,7 +2254,7 @@ snapshots:
       '@csstools/css-parser-algorithms': 4.0.0(@csstools/css-tokenizer@4.0.0)
       '@csstools/css-tokenizer': 4.0.0
       '@csstools/media-query-list-parser': 5.0.0(@csstools/css-parser-algorithms@4.0.0(@csstools/css-tokenizer@4.0.0))(@csstools/css-tokenizer@4.0.0)
-      postcss: 8.5.21
+      postcss: 8.5.23
       postcss-selector-parser: 7.1.4
       postcss-value-parser: 4.2.0
       style-search: 0.1.0
@@ -2602,7 +2606,7 @@ snapshots:
       css-tokenize: 1.0.1
       duplexify: 4.1.3
       multimatch: 5.0.0
-      postcss: 8.5.21
+      postcss: 8.5.23
       source-map: 0.7.6
       yargs: 17.7.3
 
@@ -3619,20 +3623,24 @@ snapshots:
     dependencies:
       htmlparser2: 8.0.0
       js-tokens: 9.0.0
-      postcss: 8.5.21
-      postcss-safe-parser: 6.0.0(postcss@8.5.21)
+      postcss: 8.5.23
+      postcss-safe-parser: 6.0.0(postcss@8.5.23)
 
-  postcss-less@6.0.0(postcss@8.5.21):
+  postcss-less@6.0.0(postcss@8.5.23):
     dependencies:
-      postcss: 8.5.21
+      postcss: 8.5.23
 
-  postcss-safe-parser@6.0.0(postcss@8.5.21):
+  postcss-safe-parser@6.0.0(postcss@8.5.23):
     dependencies:
-      postcss: 8.5.21
+      postcss: 8.5.23
 
   postcss-safe-parser@7.0.1(postcss@8.5.21):
     dependencies:
       postcss: 8.5.21
+
+  postcss-safe-parser@7.0.1(postcss@8.5.23):
+    dependencies:
+      postcss: 8.5.23
 
   postcss-selector-parser@6.1.4:
     dependencies:
@@ -3651,6 +3659,12 @@ snapshots:
   postcss-value-parser@4.2.0: {}
 
   postcss@8.5.21:
+    dependencies:
+      nanoid: 3.3.16
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
+  postcss@8.5.23:
     dependencies:
       nanoid: 3.3.16
       picocolors: 1.1.1
@@ -3869,13 +3883,13 @@ snapshots:
     dependencies:
       stylelint: 17.6.0(typescript@5.8.3)
 
-  stylelint-config-wikimedia@0.19.3(postcss-less@6.0.0(postcss@8.5.21))(typescript@5.8.3):
+  stylelint-config-wikimedia@0.19.3(postcss-less@6.0.0(postcss@8.5.23))(typescript@5.8.3):
     dependencies:
       '@stylistic/stylelint-config': 5.0.0(stylelint@17.6.0(typescript@5.8.3))
       '@stylistic/stylelint-plugin': 5.1.0(stylelint@17.6.0(typescript@5.8.3))
       browserslist-config-wikimedia: 0.7.0
       postcss-html: 1.8.1
-      postcss-less: 6.0.0(postcss@8.5.21)
+      postcss-less: 6.0.0(postcss@8.5.23)
       stylelint: 17.6.0(typescript@5.8.3)
       stylelint-config-recommended: 18.0.0(stylelint@17.6.0(typescript@5.8.3))
       stylelint-no-unsupported-browser-features: 8.1.1(stylelint@17.6.0(typescript@5.8.3))
@@ -3887,7 +3901,7 @@ snapshots:
     dependencies:
       browserslist: 4.28.6
       doiuse: 6.0.6
-      postcss: 8.5.21
+      postcss: 8.5.23
       stylelint: 17.6.0(typescript@5.8.3)
 
   stylelint-order@8.1.1(stylelint@17.14.1(typescript@5.8.3)):
@@ -3896,11 +3910,11 @@ snapshots:
       postcss-sorting: 10.0.0(postcss@8.5.21)
       stylelint: 17.14.1(typescript@5.8.3)
 
-  stylelint-plugin-use-baseline@1.4.4(stylelint@17.14.1(typescript@5.8.3)):
+  stylelint-plugin-use-baseline@1.4.5(stylelint@17.14.1(typescript@5.8.3)):
     dependencies:
       css-tree: 3.2.1
       is-plain-object: 5.0.0
-      postcss: 8.5.21
+      postcss: 8.5.23
       postcss-value-parser: 4.2.0
       stylelint: 17.14.1(typescript@5.8.3)
 
@@ -3974,8 +3988,8 @@ snapshots:
       micromatch: 4.0.8
       normalize-path: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.21
-      postcss-safe-parser: 7.0.1(postcss@8.5.21)
+      postcss: 8.5.23
+      postcss-safe-parser: 7.0.1(postcss@8.5.23)
       postcss-selector-parser: 7.1.4
       postcss-value-parser: 4.2.0
       string-width: 8.2.2
